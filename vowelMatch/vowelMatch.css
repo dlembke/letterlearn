@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+#gameBar {
+    background: lightblue;
+    text-align: center;
+    height: 30px;
+}
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+#randomDisplay {
+    font-size: 60px;
+    color: rgb(9, 9, 248);
+}
+#newGame {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: white;  /*steelblue; */
+    outline: none;
+}
+button:hover {
+    background: rgb(189, 189, 187);
+    cursor: pointer;
+    transform: scale(1.5);
+}
+#result {
+    display: inline-block;
+    font-size: 50px;
+    color:black;
+    height: 100px;
+}
+#userLetterSelection {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.letters {
+    text-transform: uppercase;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+    font-size: 80px;
+    padding: 20px 40px 5px 40px;    
+}
+.disappear {
+    /* display: none; */
+    visibility: hidden;
+}
